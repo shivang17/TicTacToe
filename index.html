@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <meta charset="utf-8">
+    <!-- Link Bootstrap CDN -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <!-- Link Custom Style -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header class="text-center">
+      <h1>Tic Tac Toe</h1>
+    </header>
+    <section id="selectCharacter" class="text-center">
+      <h3>Play game as:</h3>
+      <input type="radio" value="X" name="userCharacter" checked>X
+      <input type="radio" value="O" name="userCharacter">O <br>
+      <button class="btn btn-primary">Play</button>
+    </section>
+
+    <section id="playArea">
+      <section>
+        <div name="00" class="text-center"></div>
+        <div name="01" class="text-center"></div>
+        <div name="02" class="text-center"></div>
+      </section>
+      <section>
+        <div name="10" class="text-center"></div>
+        <div name="11" class="text-center"></div>
+        <div name="12" class="text-center"></div>
+      </section>
+      <section>
+        <div name="20" class="text-center"></div>
+        <div name="21" class="text-center"></div>
+        <div name="22" class="text-center"></div>
+      </section>
+    </section>
+
+    <button id="resetBtn" class="btn btn-success">Play Again</button>
+  </body>
+  <!-- Link Custom JS -->
+  <script src="main.js" type="text/javascript"></script>
+</html>

@@ -1,0 +1,36 @@
+header{
+  font-family: 'Playfair Display', serif;
+}
+#selectCharacter{
+  margin: 50px 0;
+  font-size: 20px;
+}
+#selectCharacter button{
+  margin: 30px 0;
+}
+#playArea{
+  display: none;
+  width: 40%;
+  height: 300px;
+  margin: 0 auto;
+}
+#playArea section{
+  height: 100px;
+}
+#playArea section div{
+  height: 100px;
+  width: 32.81%;
+  float: left;
+  border: 1px solid black;
+  font-size: 50px;
+}
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
+#resetBtn{
+  display: none;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
